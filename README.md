@@ -9,7 +9,8 @@
 - コード管理の学習（GitHub利用）
 
 ## 参考元デザイン
-- **デザイン提供**：〇〇様（[サイトURL](https://example.com)）
+- デザイン提供：[Codejump様（初級編：プロフィールサイト）](https://code-jump.com/coding-recommend/)
+- レイアウト構成の解説ページ：[1カラムレイアウトの構成](https://code-jump.com/profile-layout/)
 - 許可をいただき、ポートフォリオ掲載目的で模写しています。
 
 ## 使用素材について
