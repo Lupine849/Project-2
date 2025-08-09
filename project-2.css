@@ -1,0 +1,367 @@
+@charset "utf-8";
+
+/* common */
+
+body {
+  margin: 0;
+}
+
+
+
+img {
+  vertical-align: bottom;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 14px;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  padding-top: 64px;
+  margin: 0;
+}
+
+dl {
+  margin: 0;
+}
+
+dd {
+  margin: 0;
+}
+
+/* header */
+
+h1 {
+  margin: 0;
+  font-size: 0;
+  text-align: center;
+  padding-top: 16px;
+}
+
+.header-nav-list {
+  display: flex;
+  width: 260px;
+  margin: 12px auto 0;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+
+.header-nav-icon img{
+  width: 20px;
+}
+
+.nav-item-anchor {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-item-anchor:hover {
+  opacity: 0.7;
+}
+
+/* main */
+
+.main-visual img{
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.mainvisual-pc {
+  display: none;
+}
+
+/* About */
+
+.About-div {
+  padding: 0 24px;
+}
+
+.About-item1 {
+  margin-top: 48px;
+}
+
+.About-item2 {
+  margin-top: 32px;
+}
+
+p {
+  color: #333;
+  font-size: 14px;
+  margin-top: 32px;
+}
+
+/* Works */
+
+.Works-list {
+  padding: 0 24px;
+}
+
+.Works-item img {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.Works-item1 img {
+  margin-top: 32px;
+}
+
+/* News */
+
+.News-list {
+  padding: 0 24px;
+  color: #333;
+}
+
+.News-div1 {
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  margin-top: 32px;
+}
+
+.News-div2 {
+  border-bottom: 1px solid #aaa;
+}
+
+.News-team {
+  font-size: 14px;
+  padding: 0 20px;
+  margin-top: 16px;
+}
+
+.News-def {
+  font-size: 14px;
+  padding: 0 20px;
+  margin-bottom: 16px;
+}
+
+/* Contact */
+
+.Contact-div1 {
+  padding: 0 24px;
+}
+
+.Contact-team {
+  color: #333;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.Contact-team1 {
+  margin-top: 32px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  padding: 8px;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  height: 140px;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  padding: 8px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: #333;
+  margin-top: 32px;
+  padding: 0;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+
+button:hover {
+  color: #333;
+  background-color: white;
+  cursor: pointer;
+}
+
+.Contact-div2 {
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  margin-top: 64px;
+  padding-bottom: 8px;
+  border-top: 1px solid #333;
+  background-color: #333;
+  text-align: center;
+}
+
+small {
+  font-size: 8px;
+  color: white;
+}
+
+/* large screen */
+
+@media (min-width: 600px) {
+
+  /* common */
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 4%;
+    box-sizing: border-box;
+  }
+
+  /* header */
+
+  header {
+    display: flex;
+    height: 260px;
+    align-items: center;
+  }
+
+  h1 {
+    flex: 1;
+    padding: 0;
+    text-align: start;
+  }
+
+  nav {
+    flex: 3;
+  }
+
+  .header-nav-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .header-nav-item {
+    width: 70px;
+  }
+
+  .header-nav-item4 {
+    width: 90px;
+  }
+
+  .header-nav-icon {
+    width: 20px;
+  }
+
+  /* main */
+
+  .mainvisual-sp {
+    display: none;
+  }
+
+  .mainvisual-pc {
+    display: inherit;
+  }
+
+  /* About */
+
+  .About-div {
+    padding: 0;
+  }
+
+  /* Works */
+
+  .Works-list {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .Works-item {
+    width: 31%;
+  }
+
+  .Works-item img {
+    margin-top: 24px;
+  }
+
+  /* News */
+
+  .News-list {
+    padding: 0;
+  }
+
+  .News-div {
+    display:flex;
+  }
+
+  .News-div1 {
+    margin-top: 64px;
+  }
+
+  .News-team {
+    margin: 0;
+    padding: 15px 20px 15px 20px;
+  }
+
+  .News-def {
+    margin: 0;
+    padding: 15px 20px 15px 20px;
+  }
+
+  /* Contact */
+
+  .Contact-div1 {
+    padding: 0;
+  }
+
+  .Contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+  }
+
+  .Contact-team {
+    width: 15%;
+  }
+
+  .Contact-team1 {
+    margin-top: 0;
+  }
+
+  .Contact-def {
+    width: 85%;
+  }
+
+  .Contact-def1 {
+    margin-top: 8px;
+  }
+
+  /* footer */
+
+  footer {
+    margin-top: 128px;
+  }
+
+}
